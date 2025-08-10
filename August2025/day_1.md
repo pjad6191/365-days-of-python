@@ -5,7 +5,8 @@
   - Worked on creating a **bisection search** for Problem Set 1 to solve how much to save each month to afford a down payment in 36 months.  
   - Started working on a **Hangman game** for Problem Set 2, focusing on conditionals and game logic.   
 - Watched videos on numpy and pandas through the Google Advanced Data Analytics course and completed hands on labs using **NumPy** and **Pandas.**  
-- Created an account on **LeetCode** to practice **Pandas** and algorithm challegnges.   
+- Created an account on **LeetCode** to practice **Pandas** and algorithm challegnges.
+- Watched **Day 1: Line continuation characters in Python** from **Python Coding (CLCODING)**.
 
 ### Concepts Learned/Practiced:  
 - **Conditionals and Loops:** if statements, while statements, for loops  
@@ -23,7 +24,8 @@
 ### Resources Used:  
 - [MIT OCW 6.0001](https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/)  
 - [Google Advanced Data Analytics Certification](https://www.coursera.org/professional-certificates/google-advanced-data-analytics)  
-- [LeetCode](https://leetcode.com/studyplan/)  
+- [LeetCode](https://leetcode.com/studyplan/)
+- [Day 1: Line continuation characters in Python](https://www.youtube.com/watch?v=Bd6-4WhTpkg&list=PLeLGx0BaYD6Zr_3ReRhyZHLoO35uEVmcJ&index=192)  
 
 ### Reflections/Insights:
 - I need to work on understanding **flow control** better, especially for large programs like the Hangman game. I think it’ll get easier as I work with more complex code.   
