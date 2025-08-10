@@ -1,4 +1,4 @@
-## August 9 - Day 1
+## August 9, 2025 - Day 1
 
 ### What I Worked On:  
 - Finished up Problem Set 1 and began Problem Set 2 from MIT's Open Courseware Class: **Introduction to Computer Science and Programming in Python**  
