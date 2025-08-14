@@ -4,7 +4,7 @@
 - I wanted to get down when to use parentheses vs single brackets vs double brackets in Pandas, so I had ChatGPT make a mini chart showing when to use each. It is definitely helpful, and I think now that I have analyzed and thought about it, it will be a lot easier. 
 
 ### Concepts Learned/Practiced:  
-- **DataFrames - Selection** in **Pandas**
+- **Pandas DataFrames: Selection**
        
 ### What I Found Challenging:  
 - Creating a table in this Github file! 
@@ -13,17 +13,17 @@
 - Got more hands on experience with DataFrames in Pandas
     
 ### Resources Used:  
-- ChatGPT
+- **ChatGPT**
 - **_Python for Data Analysis_** by Wes McKinney, Chapter 5 
 
 ### Reflections/Insights:
 - We lost power for a good portion of the day, so I used it for some reading time  
   
 ### Next Steps/Plans for Tomorrow: 
-- Continue practicing with Pandas
+- Continue practicing selection in Pandas
 
 
-### Table from ChatGPT 
+### Table from ChatGPT:
 
 | Method                  | Row selection                                | Column selection                         | Example                                         | Returns                                      |
 |-------------------------|-----------------------------------------------|--------------------------------------------|-------------------------------------------------|----------------------------------------------|
