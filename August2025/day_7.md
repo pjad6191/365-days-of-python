@@ -13,7 +13,7 @@
 - Got more hands on experience with DataFrames in Pandas
     
 ### Resources Used:  
-- **[Kaggle's Pandas Course](https://www.kaggle.com/learn/pandas)
+- **[Kaggle's Pandas Course](https://www.kaggle.com/learn/pandas)**
 - **_Python for Data Analysis_** by Wes McKinney, Chapter 5 
 
 ### Reflections/Insights:
