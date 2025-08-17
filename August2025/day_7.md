@@ -17,7 +17,7 @@
 - **_Python for Data Analysis_** by Wes McKinney, Chapter 5 
 
 ### Reflections/Insights:
-- We lost power for a good portion of the day, so I used it for some reading time  
+- I really liked this course. I'm glad that I found it. I will continue to progress in this.  
   
 ### Next Steps/Plans for Tomorrow: 
 - Continue practicing selection in Pandas
