@@ -22,4 +22,10 @@
 - Continue practicing Pandas with ChatGPT. 
 
 ### Example Code: 
+```python
+
+table["honor_roll"] = (table["grade"] == "A") & (table["age"] < 11)
+table.loc[table["honor_roll"] == True, ["name", "age"]]
+
+```
 
