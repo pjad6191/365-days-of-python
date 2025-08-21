@@ -7,7 +7,7 @@
 - **Pandas DataFrames**: Sorting & Filtering, Adding Columns
        
 ### What I Found Challenging:  
-- I didn't find anything particularly challenging today. It was an enjoyable day with coding practice. 
+- It was not particularly challenging today. Just the right amount of challenge to help me grow. 
 
 ### Key Accomplishments:  
 - Started to feel more confident and like I knew what I was doing with filtering and conditionals. While I'm comfortable with Python, the syntax for Pandas was initially throwing me off. 
