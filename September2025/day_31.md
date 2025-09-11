@@ -1,7 +1,7 @@
 ## September 8, 2025 - Day 31
 
 ### What I Worked On:  
-Problem 3: Wildcards, from Problem Set 3 from the MIT CS Class. The assignment was as follows:
+Problem 4: Wildcards, from Problem Set 3 from the MIT CS Class. The assignment was as follows:
 - Modify the deal_hand function to support always giving one wildcard in each hand. 
 - Note that deal_hand currently ensures that one third of the letters are vowels and the rest are consonants. Leave the consonant count intact, and replace one of the vowel slots with the wildcard. 
 - Modify the is_valid_word function to support wildcards. 
