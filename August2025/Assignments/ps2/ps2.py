@@ -1,3 +1,4 @@
+
 """
 Created on Sat Aug  9 13:21:38 2025
 
@@ -84,6 +85,41 @@ def get_available_letters(letters_guessed):
             letters_string += letter
     return letters_string
             
+
+def match_with_gaps(my_word, other_word):
+    """
+    The function should return True if the guessed letters
+    of my_word match the corresponding letters of other_word. 
+    They should return False if the two words are not the same length
+    or if a guessed_letter in my_word does not match 
+    the corresponding character in other_word.
+
+    Parameters
+    ----------
+    my_word : STRING
+        DESCRIPTION.
+    other_word : STRING
+        DESCRIPTION.
+
+    Returns
+    -------
+    Boolean.
+
+    """
+       
+    if len(my_word) != len(other_word):
+        return False
+
+
+    for i in range(len(my_word)):
+        if my_word[i] != other_word[i]:
+            return False
+        
+    return True
+    
+        
+#def show_possible_matches(my_word):
+    
 
 
 def hangman(secret_word):
@@ -175,11 +211,7 @@ def hangman(secret_word):
         print("-------------------------------------------------\n")
         print(f"You have {guesses} guesses and {warnings} warning(s) left.")
         print(f"Available letters: {available_letters}")
-        
-        
-        
-        
-        
+          
     #The total score is the number of guesses_remaining once the user has guessed the secret_word times the number of unique letters in secret_word.     
     secret_word_list = []
     for char in secret_word:
@@ -195,4 +227,8 @@ def hangman(secret_word):
     else: 
         print("Congratulations, you won!")
         print(f"Your total score for this game is {total_score}.")
-hangman("apple")
+
+
+
+
+
