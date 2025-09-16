@@ -51,15 +51,12 @@ def play_game(word_list):
 
     word_list: list of lowercase strings
     """
- 
-       
+    # Get num of hands to play
     num_of_hands = int(input("Enter total number of hands: "))
+
+    # Initialize variables:
+    total_score = 0
     hand_count = 1
-    
-    # Initialize total score:
-    total_score = 0 
-    
-    # Initialize replay variable: 
     replay_used = False
     
     while num_of_hands > 0:
@@ -96,7 +93,6 @@ def play_game(word_list):
         num_of_hands -= 1
         hand_count += 1
                     
-    
-    print("Total score over all hands: ", total_score)def substitute_hand(hand, letter):
+    print("Total score over all hands: ", total_score)
     
 ```
