@@ -1,4 +1,4 @@
-## September 14, 2025 - Day 3
+## September 14, 2025 - Day 37
 
 ### What I Worked On:  
 - Worked on Problem 3, Substitute_ hand function
