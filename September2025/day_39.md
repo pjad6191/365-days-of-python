@@ -28,8 +28,8 @@ Code Reuse and Efficiency
           
 ### Resources Used:  
 - [Problem Set 4](https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/ps4/)
-- [Introduction to Computation and Programming Using Python]
-- [Lecture 10: Understanding Program Efficiency, Part 1]
+- [Introduction to Computation and Programming Using Python](https://dn720002.ca.archive.org/0/items/gate-2020-computer-science-and-technology-by-disha-experts/Introduction%20to%20Computation%20and%20Programming%20Using%20Python.pdf)
+- [Lecture 10: Understanding Program Efficiency, Part 1](https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/lecture-10-understanding-program-efficiency-part-1/)
     
 ### Problem 4 Code from today: 
 ```python
