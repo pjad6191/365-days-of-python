@@ -1,7 +1,7 @@
 ## October 20, 2025 - Day 73
 
 ### What I Worked On:  
-I finally finished up Problem Set 4 from Introduction to Computer Science and Programming in Python. It took me forever to remember what I did with the rest of the problem, but after reviewing, it didn't take that long to put the rest together. 
+I finally finished up Problem Set 4 from Introduction to Computer Science and Programming in Python. It took me forever to remember what I did with the rest of the problem, but after reviewing, it didn't take that long to put the rest together. The full code for part C can be found here: September2025/Assignments/ps4/ps4c.py
 
 ### Concepts Practiced:  
 - Classes and inheritance
