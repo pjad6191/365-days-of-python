@@ -27,17 +27,14 @@ I will also work on small projects and challenges to apply the concepts I learn 
 ## 📂 Structure:
 - **August Folder**: Starting point for my journey, starting with practicing basic programs and completing the Google Advaned Data Analytics program.
 - **Daily Logs**: Each day will be documented in a new markdown file (e.g., `day_1.md`, `day_2.md`, etc.). Each log will include:
-  - What I worked on.
-  - Concepts learned.
-  - Challenges faced.
-  - Key accomplishments and projects.
-  - Resources used (tutorials, books, etc.).
-  - Insights and reflections.
+  - What I worked on
+  - Concepts practiced
+  - Example code
 
 ---
 
 ## ⚡ Progress Tracking:
-Each day will build on the last, with incremental improvements. I’ll be documenting not only the concepts but also my reflections, the challenges I’ve encountered, and how I overcame them. This will serve as both a personal log and a resource for anyone looking to follow a similar learning path.
+Each day will build on the last, with incremental improvements. I may also be documenting my reflections, the challenges I’ve encountered, and how I overcame them along the way. This will serve as both a personal log and a resource for anyone looking to follow a similar learning path.
 
 ---
 
