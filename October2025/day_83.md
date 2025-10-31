@@ -4,6 +4,8 @@
 **Exercism:**  
 I worked on functions that involved sets. It was good practice since I don't have much experience working with sets. They were all fairly easy with the exception of the last one. I could not understand at first what the instructions were even asking me. All the solutions were simple though. Each function provided a different way to manipulate sets. 
 
+I also worked on a short quick function dealing with time. 
+
 ### Concept Practiced:  
 - Sets
          
@@ -133,5 +135,14 @@ def singleton_ingredients(dishes, intersection):
     for dish in dishes:
         all_ingredients= all_ingredients.union(dish)
     return all_ingredients - intersection
+
+
+from datetime import datetime, timedelta
+
+def add(moment):
+    """
+    Determines the date and time one gigasecond after the given moment. 
+    """
+    return moment + timedelta(seconds = 1_000_000_000)
     
 ```
