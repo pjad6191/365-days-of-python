@@ -24,15 +24,24 @@ def load_cows(filename):
     Returns:
     a dictionary of cow name (string), weight (int) pairs
     """
-    
-    cows = open(filename, 'r')
+    #Initialize a dictionary to return
     cow_dict = {}
-    for line in cows:
-        words = line.split(",")
-        cow_info = []
-        for word in words:
-            cow_info.append(word.strip())
-        cow_dict[cow_info[0]] = int(cow_info[1])
+    
+    #Opens the file, reads it, and closes it
+    with open(filename, 'r') as cows:
+        for line in cows:
+            #Separate the words by comma
+            words = line.split(",")
+            
+            #Get cow name
+            name = words[0].strip()
+            
+            #Get cow weight
+            weight = int(words[1].strip())
+            
+            #Add to dictionary
+            cow_dict[name] = weight
+       
     return cow_dict
 
 
