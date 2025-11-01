@@ -19,14 +19,17 @@ I will also work on small projects and challenges to apply the concepts I learn 
 ## 🏆 Key Accomplishments:
 - TBD – will update as the journey progresses!
 - **Day 1**: Set up repository and worked on a program for an MIT Open Courseware class that I'm working through. 
-- **Day 5**: 
-- **Day 10**:
+- **Day 85**: Completed MIT’s *Intro to Computer Science and Programming in Python* (last problem set done!)
+- **Day 85**: Finished Learning Mode on Exercism’s Python Track
   
 ---
 
 ## 📂 Structure:
-- **August Folder**: Starting point for my journey, starting with practicing basic programs and completing the Google Advaned Data Analytics program.
-- **Daily Logs**: Each day will be documented in a new markdown file (e.g., `day_1.md`, `day_2.md`, etc.). Each log will include:
+- **August2025 Folder**: Starting point for my journey, starting with practicing basic programs and completing the Google Advaned Data Analytics program.
+- **September2025 Folder**
+- **October2025 Folder**
+- **November2025 Folder**
+- **Daily Logs in Each Folder**: Each day will be documented in a new markdown file (e.g., `day_1.md`, `day_2.md`, etc.). Each log will include:
   - What I worked on
   - Concepts practiced
   - Example code
@@ -42,4 +45,3 @@ Each day will build on the last, with incremental improvements. I may also be do
 The journey begins now. Follow along or start your own 365 days of learning Python!
 
 
-- TBD
