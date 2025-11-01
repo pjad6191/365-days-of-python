@@ -2,7 +2,8 @@
 Semester Portfolio by Pamela Brown
 
 ## 📘 Course Overview  
-This repository contains the complete set of programming assignments (problem-sets) created during the MIT 6.0001 course: *Introduction to Computer Science and Programming in Python*.  
+This repository contains the complete set of programming assignments (problem-sets) created during the MIT 6.0001 course: *Introduction to Computer Science and Programming in Python*. The instructions for the problem sets can be found here: [MIT 6.0001 Assignments](https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/pages/assignments/)
+
 The course is designed for students with little or no prior programming experience, with the aim to:  
 - provide an understanding of the role computation can play in solving problems
 - enable students to feel justifiably confident in writing small programs to accomplish useful goals
