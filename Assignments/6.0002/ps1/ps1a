@@ -57,7 +57,7 @@ def greedy_cow_transport(cows,limit=10):
         to the trip
     2. Once the trip is full, begin a new trip to transport the remaining cows
 
-    Does not mutate the given dictionary of cows.
+    *Does not mutate the given dictionary of cows.
 
     Parameters:
     cows - a dictionary of name (string), weight (int) pairs
