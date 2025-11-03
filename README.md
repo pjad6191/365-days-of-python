@@ -2,7 +2,7 @@
 
 **Documenting my Python learning journey over 365 days.**
 
-Over the next 365 days, I am committing to learning Python every day. While I already have a solid understanding of the basics, my goal is to deepen my knowledge, sharpen my skills, and explore areas like **data science** and **artificial intelligence (AI)**. This repository will serve as my log to track daily progress, document what I’m learning, highlight key milestones, and share insights along the way.
+Over the next 365 days, I am committing to practicing Python every day. While I already have a solid understanding of the basics, my goal is to deepen my knowledge, sharpen my skills, and explore areas like **data science** and **artificial intelligence (AI)**. This repository will serve as my log to track daily progress, document what I’m learning, highlight key milestones, and share insights along the way.
 
 I will also work on small projects and challenges to apply the concepts I learn and to push my problem-solving skills further. 
 
