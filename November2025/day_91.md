@@ -2,7 +2,8 @@
 
 ### What I Worked On:  
 **Exercism:**  
-> I worked on a function that takes a letter as an input and returns a series of strings that creates a diamond made out of letters, beginning at A and expanding out toward the given letter, then back down to A. It took some trial and error to create the image that I wanted, but I got it. One thing I don't like about Exercism is that it's not always clear what output it's looking for. It wasn't clear that it was looking for a list of strings in this case. It could have been expecting one long string with newlines built in. 
+I worked on a function that takes a letter as input and returns a series of strings that create a diamond made out of letters. The diamond begins at A and expands out toward the given letter, then back down toward A.
+> It took some trial and error to create the image that I wanted, but I got it. One thing I don't like about Exercism is that it's not always clear what output it's looking for. It wasn't clear that it was looking for a list of strings in this case. It could have been expecting one long string with newlines built in. 
  
 ### Concepts Practiced:  
 - Strings
