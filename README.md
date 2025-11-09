@@ -44,4 +44,4 @@ Each day will build on the last, with incremental improvements. I may also be do
 ## 🚀 Let's Go!
 The journey begins now. Follow along or start your own 365 days of learning Python!
 
-
+*Note:* A couple of posts appear off by a day in GitHub’s contribution graph due to late-night commits, but I’ve still coded and logged progress every single day.
