@@ -26,6 +26,9 @@ def decode(string):
             count += 1
         else:
             compressed += str(count) + string[i - 1]
-            count = 1  
+            count = 1
+
+    compressed += str(count) + string[-1]
+    return compressed
 
 ```
