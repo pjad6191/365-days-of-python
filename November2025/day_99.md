@@ -4,16 +4,20 @@
 **Exercism:**  
 I created an implementation of the Atbash cipher, an ancient encryption system created in the Middle East. There are two functions, one to encode and the other to decode. 
 
+**Neural Data Science:**
+I worked on exercises involving reaction time data, looking at accuracy, and removing outliers. 
+
 Also, I'm on day 99! Almost to 100. It's been a journey! 
  
 ### Concepts Practiced:  
-- String manipulation
-- String cleaning
+- String manipulation and cleaning
 - Dictionaries
 - Loops
+- List manipulation
          
 ### Resources Used:  
 - [Exercism.org](https://exercism.org/tracks/python/exercises)
+- [Neural Data Science](https://neuraldatascience.io/)
   
 ### Code: 
 ```python
@@ -69,7 +73,6 @@ def encode(plain_text):
     return ciphered_text
 
 
-
 def decode(ciphered_text):
     """
     This function decodes text that has been encoded using the Atbash ciper. 
@@ -109,5 +112,37 @@ def decode(ciphered_text):
             
     return plain_text
 
+
+
+#Example Neural Data Science Code
+rt = [0.394252808, 0.442094359, 0.534764366, 0.565906723, 0.570404592, 
+      0.486154719, 0.518792127, 0.844916827, 0.495622859, 0.476159436, 
+      0.612854746, 0.529661203, 0.389157455, 1.517088266, 0.573962432, 
+      0.714152493, 0.409225638, 0.435308188, 0.509801957, 0.544626271, 
+      0.437877745, 0.333356848, 0.401773569, 0.479840688
+      ]
+
+err = [False, False, True, False, False, False, False, False, True, False, 
+       False, True, False, False, False, False, True, True, True, False, 
+       ]
+
+#Insert values into err
+err.insert(0, False)
+err.extend([True, True, True])
+
+#Find the position of the slower RT in the data
+slowest_index = rt.index(slowest)
+
+#Removes the slowest RT value 
+rt.remove(max(rt))
+
+#Removes the corresponding err value 
+err.pop(slowest_index) 
+
+#Print the slowest RT remaining, rounded to decimal places
+print("Slowest RT", round(max(rt), 2))
+
+#Check the length of both lists
+print(f"Length of rt: {len(rt)} and length of err: {len(err)}")
 
 ```
