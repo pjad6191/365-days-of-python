@@ -127,8 +127,8 @@ err = [False, False, True, False, False, False, False, False, True, False,
        ]
 
 #Insert values into err
-err.insert(0, False)
-err.extend([True, True, True])
+err.insert(0, True)
+err.extend([False, False, False])
 
 #Find the position of the slower RT in the data
 slowest_index = rt.index(slowest)
