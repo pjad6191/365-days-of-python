@@ -21,7 +21,19 @@ I will also work on small projects and challenges to apply the concepts I learn 
 - **Day 1**: Set up repository and worked on a program for an MIT Open Courseware class that I'm working through. 
 - **Day 85**: Completed MIT’s *Intro to Computer Science and Programming in Python* (last problem set done!)
 - **Day 85**: Finished Learning Mode on Exercism’s Python Track
-  
+- **Day 100: 🐍 100 Days of Python Completed!**
+
+---
+
+## As of November 16, 2025, I’ve completed **100 days** of Python learning and coding! 🎉
+### ✅ Highlights so far:
+- Completed beginner to intermediate projects
+- Practiced core concepts: functions, loops, conditionals, data structures
+- Built problem-solving skills with algorithms (greedy, brute force, etc.)
+- Explored file handling and custom modules
+- Started working with data analysis using pandas with real datasets
+- Started a Neural Data Science course
+
 ---
 
 ## 📂 Structure:
