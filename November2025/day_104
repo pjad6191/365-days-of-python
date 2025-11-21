@@ -1,0 +1,91 @@
+## November 20, 2025 - Day 104
+
+### What I Worked On:  
+**Exercism:**  
+I created a function that calculates the score for a given roll of dice in a game of Yacht.
+ 
+### Concepts Practiced:  
+- Conditionals
+         
+### Resources Used:  
+- [Exercism.org](https://exercism.org/tracks/python/exercises)
+  
+### Code: 
+```python
+#Exercism Code:
+# Score categories.
+# You can use any values you want, as long as you use them consistently.
+YACHT = "YACHT"
+ONES = "ONES"
+TWOS = "TWOS"
+THREES = "THREES"
+FOURS = "FOURS"
+FIVES = "FIVES"
+SIXES = "SIXES"
+FULL_HOUSE = "FULL_HOUSE"
+FOUR_OF_A_KIND = "FOUR_OF_A_KIND"
+LITTLE_STRAIGHT = "LITTLE_STRAIGHT"
+BIG_STRAIGHT = "BIG_STRAIGHT"
+CHOICE = "CHOICE"
+
+
+def score(dice, category):
+    """
+    Calculates the score for a given roll of dice in the Yacht game.
+
+    Param:
+    dice : list[int] - A list of five integers (1–6) for each of the dice
+    category : str - The scoring category to evaluate.
+
+    Returns: int - The score for the roll according to the chosen category.
+    """
+    
+    score = 0
+    counts = {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0}
+
+    # Count how many of each number was rolled
+    for die in dice:
+        counts[die] += 1
+
+    if category == ONES:
+        score = 1 * counts[1]
+    elif category == TWOS:
+        score = 2 * counts[2]
+    elif category == THREES:
+        score = 3 * counts[3]
+    elif category == FOURS:
+        score = 4 * counts[4]
+    elif category == FIVES:
+        score = 5 * counts[5]
+    elif category == SIXES:
+        score = 6 * counts[6]
+
+    elif category == FULL_HOUSE:
+        # exactly a 3-of-a-kind and a pair
+        if 2 in counts.values() and 3 in counts.values():
+            score = sum(dice)
+
+    elif category == FOUR_OF_A_KIND:
+        for face, count in counts.items():
+            if count >= 4:          
+                score = 4 * face
+                break
+
+    elif category == LITTLE_STRAIGHT:
+        if sorted(dice) == [1, 2, 3, 4, 5]:
+            score = 30
+
+    elif category == BIG_STRAIGHT:
+        if sorted(dice) == [2, 3, 4, 5, 6]:
+            score = 30
+
+    elif category == CHOICE:
+        score = sum(dice)
+
+    elif category == YACHT:
+        if 5 in counts.values():
+            score = 50
+
+    return score
+
+```
